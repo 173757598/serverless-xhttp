@@ -23,6 +23,6 @@ COPY --from=builder /app/app .
 
 RUN chmod +x app
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD ["./app"]

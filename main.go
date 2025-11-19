@@ -64,7 +64,7 @@ func loadConfig() *Config {
 	nezhaKey := getEnv("NEZHA_KEY", "")          // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
 	subPath := getEnv("SUB_PATH", "sub")         // 节点订阅token
 	name := getEnv("NAME", "Xhttp")              // 节点名称
-	port := getEnv("PORT", "8080")               // 监听端口
+	port := getEnv("PORT", "3000")               // 监听端口
 	domain := getEnv("DOMAIN", "")               // 服务域名
 
 	xpath := getEnv("XPATH", uuid[:8])
